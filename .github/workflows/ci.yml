@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14, 15]
+        node: [15]
 
     steps:
       - name: Checkout 🛎️
@@ -46,8 +46,8 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm install
 
-      - name: Generate the static site ⚡️
-        run: npm run generate
+      - name: Generate the static docs site ⚡️
+        run: npm run build
 
       - name: Check for lint errors 👀
         run: npm run lint
