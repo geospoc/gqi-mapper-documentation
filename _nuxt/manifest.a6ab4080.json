@@ -1,7 +1,6 @@
 {
   "name": "docus-starter",
   "short_name": "docus-starter",
-  "description": "![docus preview](./static/preview.png)",
   "icons": [
     {
       "src": "/unc-sch-documentation/_nuxt/icons/icon_64x64.4ffcfe.png",
