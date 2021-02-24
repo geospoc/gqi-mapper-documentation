@@ -31,9 +31,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
 
-      - name: Install dependencies 🛠
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: npm install
+      - name: Clean Install dependencies 🛠
+        run: npm ci
 
       - name: Generate the static site ⚡️
         run: npm run build
