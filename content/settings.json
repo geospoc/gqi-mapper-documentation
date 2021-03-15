@@ -1,6 +1,10 @@
 {
   "title": "UNICEF :: Documentation",
   "url": "https://geospoc.github.io/unc-sch-documentation",
-  "github": "geospoc/unc-sch-documentation",
+  "github": {
+    "url": "https://github.com",
+    "repo": "geospoc/unc-sch-documentation",
+    "branch": "main"
+  },
   "twitter": "geospoc"
 }

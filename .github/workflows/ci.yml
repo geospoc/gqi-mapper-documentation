@@ -44,10 +44,10 @@ jobs:
 
       - name: Install dependencies 🛠
         if: steps.cache.outputs.cache-hit != 'true'
-        run: npm install
-
-      - name: Generate the static docs site ⚡️
-        run: npm run build
+        run: npm ci --prefer-offline --no-audit
 
       - name: Check for lint errors 👀
         run: npm run lint
+
+      - name: Generate the static docs site ⚡️
+        run: npm run build
