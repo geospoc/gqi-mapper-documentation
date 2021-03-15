@@ -6,15 +6,12 @@ export default withDocus({
   ssr: false,
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  // Docus settings: https://docus.dev/
+  // Docus settings
   docus: {
-    colors: {
-      primary: '#E24F55',
-      code: '#2A5C3C',
-    },
-  },
+    primaryColor: '#2F4F4F'
+  }
   // Router settings for deployment
-  router: {
-    base: '/unc-sch-documentation/',
-  },
+  // router: {
+  //   base: '/unc-sch-documentation/',
+  // },
 })
