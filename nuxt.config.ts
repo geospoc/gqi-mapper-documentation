@@ -11,7 +11,7 @@ export default withDocus({
     primaryColor: '#2F4F4F'
   }
   // Router settings for deployment
-  // router: {
-  //   base: '/unc-sch-documentation/',
-  // },
+  router: {
+    base: '/unc-sch-documentation/',
+  },
 })
