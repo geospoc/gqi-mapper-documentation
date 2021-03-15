@@ -9,7 +9,7 @@ export default withDocus({
   // Docus settings
   docus: {
     primaryColor: '#2F4F4F'
-  }
+  },
   // Router settings for deployment
   router: {
     base: '/unc-sch-documentation/',
