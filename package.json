@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "docus": "0.0.9",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
