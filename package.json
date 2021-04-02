@@ -14,7 +14,7 @@
     "lint:prettier:fix": "prettier --write \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,vue}\""
   },
   "dependencies": {
-    "docus": "0.0.9",
+    "docus": "0.1.5",
     "nuxt": "^2.15.4"
   },
   "devDependencies": {
