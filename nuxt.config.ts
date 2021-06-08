@@ -36,4 +36,8 @@ export default withDocus({
       }
     ]
   },
+  // Router settings for deployment
+  router: {
+    base: '/unc-sch-documentation/',
+  },
 })
