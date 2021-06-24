@@ -1,5 +1,5 @@
 export default {
-  title: 'GeoQi :: Documentation on School and Hospital Detection using Satellite Images & Deep Learning',
+  title: 'GeoQi : School & Hospital Detection',
   url: 'https://geospoc.github.io/unc-sch-documentation',
   theme: {
     colors: {
