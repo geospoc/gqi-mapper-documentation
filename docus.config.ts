@@ -1,5 +1,5 @@
 export default {
-  title: 'UNICEF :: Documentation',
+  title: 'GeoQi :: Documentation',
   url: 'https://geospoc.github.io/unc-sch-documentation',
   theme: {
     colors: {
