@@ -8,8 +8,8 @@ export default {
     header: {
       title: false,
       logo: {
-        light: '/geoqi_logo.PNG',
-        dark: '/geoqi_logo.PNG'
+        light: '/geoqi_logo.png',
+        dark: '/geoqi_logo.png'
       }
     }
   },
