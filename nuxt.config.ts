@@ -38,6 +38,6 @@ export default withDocus({
   },
   // Router settings for deployment
   router: {
-    base: '/unc-sch-documentation/',
+    base: process.env.NODE_ENV === 'production' ? '/unc-sch-documentation/' : '/',
   },
 })
