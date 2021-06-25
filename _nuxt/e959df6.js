@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[33],{462:function(e,n,t){"use strict";t.r(n);var o=t(37),component=Object(o.a)({},(function(){var e=this,n=e.$createElement;return(e._self._c||n)("SlotBase",[e._v("FooterBody.vue")])}),[],!1,null,null,null);n.default=component.exports}}]);
