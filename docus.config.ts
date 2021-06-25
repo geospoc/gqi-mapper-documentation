@@ -12,12 +12,12 @@ export default {
       logo: {
         light: isProd ? '/unc-sch-documentation/icon.png' : '/icon.png',
         dark: isProd ? '/unc-sch-documentation/icon.png' : '/icon.png',
-      }
-    }
+      },
+    },
   },
   twitter: 'geospoc',
   github: {
     repo: 'geospoc/unc-sch-documentation',
-    branch: 'main'
-  }
-}
+    branch: 'main',
+  },
+};
