@@ -1,6 +1,6 @@
 {
   "name": "@geospoc/unc-sch-documentation",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -8,11 +8,12 @@
     "start": "nuxt start",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lintfix": "npm run lint:eslint:fix && npm run lint:prettier:fix",
-    "lint:eslint": "eslint \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,vue}\"",
-    "lint:eslint:fix": "eslint --fix \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,vue}\"",
-    "lint:prettier": "prettier --check \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,vue}\"",
-    "lint:prettier:fix": "prettier --write \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,vue}\"",
-    "prepare": "husky install"
+    "lint:eslint": "eslint \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,ts,vue,md}\"",
+    "lint:eslint:fix": "eslint --fix \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,ts,vue,md}\"",
+    "lint:prettier": "prettier --check \"{,!(node_modules|.nuxt|static|dist)/**/}*.{js,ts,vue,md}\"",
+    "lint:prettier:fix": "prettier --write \"{,!(node_modules|.nuxt|static|dist)/**/}*.{jsmdts,vue,md}\"",
+    "prepare": "husky install",
+    "release": "shipjs prepare"
   },
   "dependencies": {
     "docus": "0.8.5",
@@ -28,11 +29,13 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-markdown": "^2.2.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.11.1",
     "husky": "^6.0.0",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.1",
+    "shipjs": "^0.23.3"
   },
   "author": {
     "name": "GeoSpoc Dev Team",
