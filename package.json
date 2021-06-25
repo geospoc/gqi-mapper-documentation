@@ -15,7 +15,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "docus": "0.5.14",
+    "docus": "0.8.5",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
