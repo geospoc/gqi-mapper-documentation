@@ -5,7 +5,7 @@ export default {
   url: 'https://geospoc.github.io/unc-sch-documentation',
   theme: {
     colors: {
-      primary: '#2F4F4F'
+      primary: '#008cb7',
     },
     header: {
       title: false,
