@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/social-image-preview", {data:[{_img:{}}],fetch:{},mutations:void 0});
