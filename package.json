@@ -16,7 +16,7 @@
     "release": "shipjs prepare"
   },
   "dependencies": {
-    "docus": "0.8.12",
+    "docus": "0.8.14",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
