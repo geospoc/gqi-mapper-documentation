@@ -1,0 +1,29 @@
+---
+title: Project trials
+---
+
+# Project trials
+
+> What worked and what did not!
+
+## Logging Progress for Rural School detection
+
+Attempted to Use google satellite basemap from SASPlanet. Ignored due to Licence restrictions.
+
+Effort to generate MAPBOX satellite basemap mosaic. MOBAC generated mapbox mosaic as inputs but of lower image quality consequently garbage predictions obtained.
+
+Making use of Mapbox tiles instead of MOBAC generated mosaic due to increased data visual quality
+
+Include rural school POIs with large footprint and ignore outliers like small ones and those that are irregularly shaped.
+
+<p>Detection of Building edges not pronounced. Received feedback from the data science team to include building edges in training. But did not serve the purpose as it was not a whole entity.</p>
+
+29th October Building edges are sharp, school based features have diminished. Our next effort would be to train urban POIs of increased data quality eg. Chennai, Kerala
+
+Improved detections from model weights containing Chennai, Kerala pois
+
+Data Fusion to overcome old satellite basemaps in rural areas. Use of Planetscope data from NICFI programme along with Worldview-4 or Mapbox satellite basemap
+
+Image distortion due to use of nonstandardized DNs. Figured fix to remove distortion using reflectance data
+
+Obtain predictions for two districts and create confusion matrix. Satisfactory predictions obtained.

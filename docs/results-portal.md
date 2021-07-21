@@ -1,0 +1,11 @@
+---
+title: Rural Schools Portal
+---
+
+# Rural Schools Portal
+
+> <strong>The School Predictions obtained from the Satellite UNET is hosted onto a Portal</strong>
+
+## To view predictions visit
+
+[Visit – Rural School Portal.](https://unc-sch-dashboard-dev.geospoc.io)

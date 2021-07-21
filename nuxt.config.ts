@@ -1,7 +1,17 @@
-import { withDocus } from 'docus';
+import { NuxtConfig } from '@nuxt/types';
+import { tailwindcss } from './config/buildModules';
 
-export default withDocus({
-  rootDir: __dirname,
+const config: NuxtConfig = {
+  modules: ['@nuxt/content'],
+  buildModules: [
+    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    ['@nuxtjs/tailwindcss', tailwindcss],
+    // Doc: https://composition-api.nuxtjs.org/getting-started/setup
+    '@nuxtjs/composition-api/module',
+  ],
+  content: {
+    dir: 'docs',
+  },
   head: {
     meta: [
       { charset: 'utf-8' },
@@ -40,9 +50,6 @@ export default withDocus({
       },
     ],
   },
-  // Router settings for deployment
-  router: {
-    base:
-      process.env.NODE_ENV === 'production' ? '/unc-sch-documentation/' : '/',
-  },
-});
+};
+
+export default config;
