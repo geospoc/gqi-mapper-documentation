@@ -8,5 +8,5 @@ title: What's this about?
 
 - Geospatial Mapping of Schools in Rural Regions – An initiative by UNICEF – [Blog Post](https://geospoc.com/blog/2021/04/21/geospatial-mapping-of-schools-in-rural-regions-an-initiative-by-unicef/)
 - GeoSpatial: Mapping using AI and Satellite data GeoSpoc is part of UNICEF’s Innovation Fund Investments in Skills and Connectivity [Read the article here!](https://www.unicef.org/innovation/innovation-fund-geospoc-geospatial)
-- What is Crowdsouce Validation? How can YOU contribute to improve outcome? [Find out more here!](#)
-- Want to validate school predictions of other Counrties? [Do it here!](https://game.projectconnect.world/)
+- What is Crowdsource Validation? How can YOU contribute to improve outcome? [Find out more here!](#)
+- Want to validate school predictions of other Countries? [Do it here!](https://game.projectconnect.world/)
