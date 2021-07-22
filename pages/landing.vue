@@ -1,24 +1,39 @@
 <template>
   <div class="grid grid-cols-12 gap-2">
     <!-- Side card -->
-    <div class="relative col-span-4 bg-indigo-900 text-white">
-      <div class="absolute px-10 py-4">
-        <img class="object-contain" src="~/assets/geoqi-logo.png" alt="Geoqi" />
+    <div class="relative col-span-4 bg-sideCard text-white">
+      <div class="absolute w-full px-10 py-4">
+        <div class="flex justify-evenly">
+          <div>
+            <img
+              class="object-contain"
+              src="~/assets/geoqi-logo.png"
+              alt="Geoqi"
+            />
+          </div>
+          <div>
+            <img
+              class="object-contain"
+              src="~/assets/mapper-logo.png"
+              alt="Mapper"
+            />
+          </div>
+        </div>
       </div>
-      <div class="px-8 pt-24 pb-8 text-sm mt-32 bg-gray-700">
+      <div class="px-8 pt-24 pb-8 text-sm mt-32 bg-sideCardBullet">
         A microservices based integrated platform. A geospatial big data
         visualization engine, with the ability to connect with multiple types of
         datasets. Built around a data lake and microservices-based architecture,
         this engine is capable of handling extremely large geospatial datasets.
       </div>
-      <div class="p-8 my-8 bg-gray-700">
+      <div class="p-8 my-8 bg-sideCardBullet">
         <p class="text-2xl pb-2">Rular School Mapping</p>
         <div class="text-sm">
           GeoSpoc uses Deep Learning to unlock the potential of satellite images
           to map schools in rular regions.
         </div>
       </div>
-      <div class="p-8 my-8 bg-gray-700">
+      <div class="p-8 my-8 bg-sideCardBullet">
         <p class="text-2xl pb-2">Hospital Detection</p>
         <div class="text-sm">
           Detecting hospitals and a single visualization platform to explore via
@@ -33,7 +48,7 @@
       <div class="flex items-center">
         <div class="flex-1">
           <p class="text-2xl">Introduction</p>
-          <p class="pr-20 py-2 text-sm">
+          <p class="pr-20 py-2 text-sm text-justify">
             GeoSpoc uses Deep Learning to unlock the potential of satellite
             images. We will be developing two separate models; one to detect
             rural Schools and another for Hospitals and a single visualization
@@ -55,14 +70,14 @@
       <div class="flex items-center py-10">
         <!-- Bullets row 1 -->
         <div class="flex-1">
-          <div class="flex-1 pb-10">
+          <div class="flex-1 px-4 pb-10">
             <div class="text-2xl mb-4">Codebase For Schools</div>
             <div class="text-sm">
               Here is the description and the link to the page contianing the
               codebase.
             </div>
           </div>
-          <div>
+          <div class="px-4 pb-10">
             <div class="text-2xl mb-4">Crowsdsource Validation Platform</div>
             <div class="text-sm">
               Here are the contents describing the Crowsdsource Validation
@@ -73,7 +88,7 @@
 
         <!-- Bullets row 2 -->
         <div class="flex-1">
-          <div class="flex-1 pb-10">
+          <div class="flex-1 px-4 pb-10">
             <div class="text-2xl mb-4">Documentation For Schools</div>
             <div class="text-sm">
               Here are the contents describing the documentation and a link to
@@ -81,7 +96,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="px-4 pb-10">
             <div class="text-2xl mb-4">Results Portal For Schools</div>
             <div class="text-sm">
               Here are the contents describing the Results Portal For Schools
