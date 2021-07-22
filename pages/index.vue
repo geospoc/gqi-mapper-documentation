@@ -21,7 +21,7 @@
       <div class="p-8 my-8 bg-gray-700">
         <p class="text-2xl pb-2">Hospital Detection</p>
         <div class="text-sm">
-          Detecting hospitals and a single visualization platform to explore vis
+          Detecting hospitals and a single visualization platform to explore via
           Deep Learning Research & Remote Sensing for the development and
           exchange of best practices.
         </div>
