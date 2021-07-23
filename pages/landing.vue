@@ -87,45 +87,52 @@
       <div class="flex items-center py-10">
         <!-- Bullets row 1 -->
         <div class="flex-1">
-          <div class="flex-1 px-4 pb-10">
-            <div class="text-xl font-medium mb-1">Codebase For Schools</div>
-            <div class="text-sm">
-              Here is the description and the link to the page contianing the
-              codebase.
+          <a :href="bulletLinks.codebase" target="_blank">
+            <div class="flex-1 px-4 pb-10 hover:text-blue-700">
+              <div class="text-xl font-medium mb-1">Codebase For Schools</div>
+              <div class="text-sm">
+                Here is the description and the link to the page contianing the
+                codebase.
+              </div>
             </div>
-          </div>
-          <div class="px-4 pb-10">
-            <div class="text-xl font-medium mb-1">
-              Crowsdsource Validation Platform
+          </a>
+          <a :href="bulletLinks.crowdSourceVaidationPlatform" target="_blank">
+            <div class="flex-1 px-4 pb-10 hover:text-blue-700">
+              <div class="text-xl font-medium mb-1">
+                Crowsdsource Validation Platform
+              </div>
+              <div class="text-sm">
+                Here are the contents describing the Crowsdsource Validation
+                Platform a link to it.
+              </div>
             </div>
-            <div class="text-sm">
-              Here are the contents describing the Crowsdsource Validation
-              Platform a link to it.
-            </div>
-          </div>
+          </a>
         </div>
 
         <!-- Bullets row 2 -->
         <div class="flex-1">
-          <div class="flex-1 px-4 pb-10">
-            <div class="text-xl font-medium mb-1">
-              Documentation For Schools
+          <a :href="bulletLinks.documentation" target="_blank">
+            <div class="flex-1 px-4 pb-10 hover:text-blue-700">
+              <div class="text-xl font-medium mb-1">
+                Documentation For Schools
+              </div>
+              <div class="text-sm">
+                Here are the contents describing the documentation and a link to
+                it.
+              </div>
             </div>
-            <div class="text-sm">
-              Here are the contents describing the documentation and a link to
-              it.
+          </a>
+          <a :href="bulletLinks.portal" target="_blank">
+            <div class="flex-1 px-4 pb-10 hover:text-blue-700">
+              <div class="text-xl font-medium mb-1">
+                Results Portal For Schools
+              </div>
+              <div class="text-sm">
+                Here are the contents describing the Results Portal For Schools
+                and a link to it.
+              </div>
             </div>
-          </div>
-
-          <div class="px-4 pb-10">
-            <div class="text-xl font-medium mb-1">
-              Results Portal For Schools
-            </div>
-            <div class="text-sm">
-              Here are the contents describing the Results Portal For Schools
-              and a link to it.
-            </div>
-          </div>
+          </a>
         </div>
 
         <!-- Quick Links -->
@@ -155,8 +162,20 @@
 </template>
 
 <script>
-  import { defineComponent } from '@nuxtjs/composition-api';
+  import { defineComponent, ref } from '@nuxtjs/composition-api';
   export default defineComponent({
     name: 'Index',
+    setup() {
+      const bulletLinks = ref({
+        codebase: 'https://github.com/geospoc/rural-school-mapper',
+        documentation: 'https://github.com/geospoc/unc-sch-documentation',
+        portal: 'https://unc-sch-dashboard-dev.geospoc.io/onboarding',
+        crowdSourceVaidationPlatform:
+          'https://unc-sch-dashboard-dev.geospoc.io/onboarding',
+      });
+      return {
+        bulletLinks,
+      };
+    },
   });
 </script>
