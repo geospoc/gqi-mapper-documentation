@@ -2,8 +2,8 @@ export default {
   theme: {
     backgroundColor: (theme) => ({
       ...theme('colors'),
-      sideCard: '#333660',
-      sideCardBullet: '#323344',
+      'side-card': '#333660',
+      'side-card-bullet': '#323344',
     }),
   },
 };

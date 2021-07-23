@@ -2,9 +2,6 @@ import { withDocus } from 'docus';
 
 export default withDocus({
   rootDir: __dirname,
-  content: {
-    dir: 'docs',
-  },
   head: {
     meta: [
       { charset: 'utf-8' },
@@ -43,6 +40,7 @@ export default withDocus({
       },
     ],
   },
+
   modules: ['@nuxt/content'],
   // Router settings for deployment
   router: {

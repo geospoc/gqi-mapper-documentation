@@ -1,9 +1,9 @@
 <template>
-  <div class="grid grid-cols-12 gap-2">
+  <div class="landing grid grid-cols-12 gap-2 text-gray-700">
     <!-- Side card -->
-    <div class="relative col-span-4 bg-sideCard text-white">
-      <div class="absolute w-full px-10 py-4">
-        <div class="flex justify-evenly">
+    <div class="relative col-span-4 bg-side-card text-white">
+      <div class="p-4">
+        <div class="flex justify-evenly items-center">
           <div>
             <img
               class="object-contain"
@@ -20,21 +20,38 @@
           </div>
         </div>
       </div>
-      <div class="px-8 pt-24 pb-8 text-sm mt-32 bg-sideCardBullet">
+      <div
+        class="
+          flex
+          absolute
+          w-full
+          top-0
+          mt-36
+          pt-2
+          bg-side-card-bullet
+          tracking-widest
+          text-2xl
+          justify-evenly
+        "
+      >
+        <div class="text-rose-500">GEOQI</div>
+        <div class="text-blue-500">MAPPER</div>
+      </div>
+      <div class="p-8 mb-8 text-sm bg-side-card-bullet">
         A microservices based integrated platform. A geospatial big data
         visualization engine, with the ability to connect with multiple types of
         datasets. Built around a data lake and microservices-based architecture,
         this engine is capable of handling extremely large geospatial datasets.
       </div>
-      <div class="p-8 my-8 bg-sideCardBullet">
-        <p class="text-2xl pb-2">Rular School Mapping</p>
+      <div class="p-8 mb-8 bg-side-card-bullet">
+        <p class="text-xl font-medium pb-2">Rular School Mapping</p>
         <div class="text-sm">
           GeoSpoc uses Deep Learning to unlock the potential of satellite images
           to map schools in rular regions.
         </div>
       </div>
-      <div class="p-8 my-8 bg-sideCardBullet">
-        <p class="text-2xl pb-2">Hospital Detection</p>
+      <div class="p-8 mb-8 bg-side-card-bullet">
+        <p class="text-xl font-medium pb-2">Hospital Detection</p>
         <div class="text-sm">
           Detecting hospitals and a single visualization platform to explore via
           Deep Learning Research & Remote Sensing for the development and
@@ -47,8 +64,8 @@
     <div class="col-span-8 p-4">
       <div class="flex items-center">
         <div class="flex-1">
-          <p class="text-2xl">Introduction</p>
-          <p class="pr-20 py-2 text-sm text-justify">
+          <p class="text-xl font-medium">Introduction</p>
+          <p class="pr-20 py-2 text-sm">
             GeoSpoc uses Deep Learning to unlock the potential of satellite
             images. We will be developing two separate models; one to detect
             rural Schools and another for Hospitals and a single visualization
@@ -71,14 +88,16 @@
         <!-- Bullets row 1 -->
         <div class="flex-1">
           <div class="flex-1 px-4 pb-10">
-            <div class="text-2xl mb-4">Codebase For Schools</div>
+            <div class="text-xl font-medium mb-1">Codebase For Schools</div>
             <div class="text-sm">
               Here is the description and the link to the page contianing the
               codebase.
             </div>
           </div>
           <div class="px-4 pb-10">
-            <div class="text-2xl mb-4">Crowsdsource Validation Platform</div>
+            <div class="text-xl font-medium mb-1">
+              Crowsdsource Validation Platform
+            </div>
             <div class="text-sm">
               Here are the contents describing the Crowsdsource Validation
               Platform a link to it.
@@ -89,7 +108,9 @@
         <!-- Bullets row 2 -->
         <div class="flex-1">
           <div class="flex-1 px-4 pb-10">
-            <div class="text-2xl mb-4">Documentation For Schools</div>
+            <div class="text-xl font-medium mb-1">
+              Documentation For Schools
+            </div>
             <div class="text-sm">
               Here are the contents describing the documentation and a link to
               it.
@@ -97,7 +118,9 @@
           </div>
 
           <div class="px-4 pb-10">
-            <div class="text-2xl mb-4">Results Portal For Schools</div>
+            <div class="text-xl font-medium mb-1">
+              Results Portal For Schools
+            </div>
             <div class="text-sm">
               Here are the contents describing the Results Portal For Schools
               and a link to it.
@@ -106,8 +129,8 @@
         </div>
 
         <!-- Quick Links -->
-        <div class="flex-1 text-center text-gray-700">
-          <div class="text-2xl mb-4">Quick Links</div>
+        <div class="flex-1 text-center">
+          <div class="text-xl font-medium mb-4">Quick Links</div>
           <div class="mb-2 hover:text-blue-700 hover:underline">
             <nuxt-link to="/about">What's this about?</nuxt-link>
           </div>
