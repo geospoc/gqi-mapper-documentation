@@ -37,7 +37,8 @@
     "eslint-plugin-vue": "^7.15.1",
     "husky": "^7.0.1",
     "prettier": "^2.3.2",
-    "shipjs": "^0.23.3"
+    "shipjs": "^0.23.3",
+    "vue-loader": "^16.5.0"
   },
   "author": {
     "name": "GeoSpoc Dev Team",
