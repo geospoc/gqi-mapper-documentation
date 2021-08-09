@@ -44,7 +44,6 @@ export default withDocus({
   modules: ['@nuxt/content'],
   // Router settings for deployment
   router: {
-    middleware: 'redirect-to-landing',
     base:
       process.env.NODE_ENV === 'production' ? '/unc-sch-documentation/' : '/',
   },
