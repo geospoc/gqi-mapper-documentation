@@ -1,25 +1,19 @@
-export default function ({ route, redirect, params }) {
+export default function ({ route, redirect }) {
+  // Render side bar for all pages except index page
   if (route.path === '/') {
-    redirect('/landing');
-  }
-
-  if (route.path === '/landing') {
     const asideComponent = document.getElementsByTagName('aside');
     if (asideComponent.length > 0) {
       asideComponent[0].style.display = 'none';
     }
-  }
-
-  if (
-    params.pathMatch === 'about' ||
-    params.pathMatch === 'objective' ||
-    params.pathMatch === 'quick-start' ||
-    params.pathMatch === 'results-portal' ||
-    params.pathMatch === 'project-trials'
-  ) {
+  } else {
     const asideComponent = document.getElementsByTagName('aside');
     if (asideComponent.length > 0) {
       asideComponent[0].style.display = 'block';
     }
+  }
+
+  // If user clicks on introduction link in sidebar redirect them to index page
+  if (route.path === '/introduction') {
+    redirect('/');
   }
 }
