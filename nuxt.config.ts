@@ -43,6 +43,8 @@ export default withDocus({
   // Router settings for deployment
   router: {
     base:
-      process.env.NODE_ENV === 'production' ? '/unc-sch-documentation/' : '/',
+      process.env.NODE_ENV === 'production'
+        ? '/gqi-mapper-documentation/'
+        : '/',
   },
 });
