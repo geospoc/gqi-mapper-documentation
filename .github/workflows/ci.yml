@@ -26,28 +26,18 @@ jobs:
         uses: actions/checkout@master
 
       - name: Setup node env 📦
-        uses: actions/setup-node@v2.1.5
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: ${{ matrix.node }}
           registry-url: 'https://registry.npmjs.org'
           check-latest: true
+          cache: 'npm'
 
       - name: Upgrade npm ✨
         run: npm i -g npm@latest
 
-      - name: Get npm cache directory 🏗
-        id: npm-cache
-        run: echo "::set-output name=dir::$(npm config get cache)"
-
-      - name: Restore cached node_modules 🤷‍♂️
-        uses: actions/cache@v2.1.6
-        with:
-          path: ${{ steps.npm-cache.outputs.dir }}
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.os }}-node-
-
       - name: Install dependencies 🛠
-        run: npm ci --prefer-offline --no-audit
+        run: npm i --prefer-offline --no-audit --no-save
 
       - name: Run linter(s) 👀
         run: npm run lint
