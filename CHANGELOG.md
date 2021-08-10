@@ -1,3 +1,43 @@
+# [0.2.0](https://github.com/geospoc/unc-sch-documentation/compare/v0.1.0...v0.2.0) (2021-08-10)
+
+
+### Bug Fixes
+
+* add cross-env for removing NODE_DEPRECATION warning ([fc3ef16](https://github.com/geospoc/unc-sch-documentation/commit/fc3ef16f03e70c02baf2b358ecb75e66ae2ed502))
+* add node-html-parser@3.3.6 ([3299bd5](https://github.com/geospoc/unc-sch-documentation/commit/3299bd522f4593c5ce0efa6fa96cfc06f05f4337))
+* add postcss@8.3.6 ([d8d2198](https://github.com/geospoc/unc-sch-documentation/commit/d8d21986f4cf1df020a7bd00ea67c48fff2f442f))
+* add vite-plugin-vue2 ([c1b9abc](https://github.com/geospoc/unc-sch-documentation/commit/c1b9abc62468027d90b06f7c8675c205819d8d2c))
+* apckage-lock file ([66c5e0f](https://github.com/geospoc/unc-sch-documentation/commit/66c5e0ff4a0be32f61b564871e671085938ead3f))
+* changes as per pr review and product owner UA-238 #time 2h 40m ([0a8d40d](https://github.com/geospoc/unc-sch-documentation/commit/0a8d40df9cfe717421205cbde015ba35df09e0c0))
+* changes as per scrum discussion UA-238 #time 3h 20m ([cb31031](https://github.com/geospoc/unc-sch-documentation/commit/cb3103128da70d06124ef3645c8d8fc3fc42f579))
+* commit package-lock.json file UA-238 #time 10m ([c5bef36](https://github.com/geospoc/unc-sch-documentation/commit/c5bef3680785ca482a99cc0e0b0c23297da6b01d))
+* correct spelling mistake UA-238 #time 10m ([0bd1c92](https://github.com/geospoc/unc-sch-documentation/commit/0bd1c9258147948fe76c762c32487448067c79c3))
+* delete out unnecessarily committed files UA-238 #time 15m ([fb0f4dd](https://github.com/geospoc/unc-sch-documentation/commit/fb0f4ddcb9c2b3503872ae24016d7f50dde8c95f))
+* **deps:** bump docus from 0.8.12 to 0.8.14 ([6661d1d](https://github.com/geospoc/unc-sch-documentation/commit/6661d1d35f7eee52e9fb0ad14a98dde0277b30f9))
+* **deps:** bump docus from 0.8.5 to 0.8.12 ([7d6f8e1](https://github.com/geospoc/unc-sch-documentation/commit/7d6f8e1e85a9118432776ec7a5fab07fe6c521d9))
+* fixes as per pr review and scrum call UA-238 #time 4h 30m ([a83f4aa](https://github.com/geospoc/unc-sch-documentation/commit/a83f4aa952ecc6be75bec9474cb889522c4937e6))
+* fixes as per pr review feedback and scrum call UA-238 #time 20m ([821e034](https://github.com/geospoc/unc-sch-documentation/commit/821e03450f23d43784a965103e9892a5f2e14aa9))
+* git-url-parse ([a240acb](https://github.com/geospoc/unc-sch-documentation/commit/a240acba4675af18b1aabbfb74b3b01281d60902))
+* logo for mapper ([28d086b](https://github.com/geospoc/unc-sch-documentation/commit/28d086b6e40153ec7b4d73b85fab3ea77aef4083))
+* pkg json ([9379718](https://github.com/geospoc/unc-sch-documentation/commit/937971865b2b63428ef680e5774c78e3e99aa8f6))
+* remove middleware ([7d55bb2](https://github.com/geospoc/unc-sch-documentation/commit/7d55bb291961fa49f4ab03a2ffa94b43a0b49e8e))
+* remove tsconfig.json file and update package-lock.json UA-238 #time 20m ([2488f46](https://github.com/geospoc/unc-sch-documentation/commit/2488f46fcbf5e81db3499611e99a56d85e090ef9))
+* remove unnecessary configured @nuxt/content module in nuxt.config.js UA-238 #time 10m ([f4b0224](https://github.com/geospoc/unc-sch-documentation/commit/f4b0224dd889de1ff93f681a6caf99a0695c0413))
+* uninstall docus runtime dependency UA-238 #time 20m ([99e49a2](https://github.com/geospoc/unc-sch-documentation/commit/99e49a28151190622c9c3fa6a1bacb5e89a7fe86))
+* update logos ([07d1977](https://github.com/geospoc/unc-sch-documentation/commit/07d19779e08990066aad8af37f5cfc6c4a23e661))
+* upgrade husky config to v7 ([ecd5ac6](https://github.com/geospoc/unc-sch-documentation/commit/ecd5ac69cc01e91a4fb6598884cac453b4326dd9))
+* workflow ([62cab3a](https://github.com/geospoc/unc-sch-documentation/commit/62cab3a2d468fa586a78a22efc3130df5459db34))
+
+
+### Features
+
+* add hyperlinks for landing page bullets UA-238 #time 30m ([92ff05d](https://github.com/geospoc/unc-sch-documentation/commit/92ff05d9fb3a287727f855373faea942d9da3294))
+* add release:dry & release:auto scripts ([1eb628a](https://github.com/geospoc/unc-sch-documentation/commit/1eb628aee671d57ab2ca2d575054accd82277a2e))
+* add up hospital detection portion and other house-keeping UA-238 #time 3h 40m ([d5f9020](https://github.com/geospoc/unc-sch-documentation/commit/d5f9020751015091d8baaef552920a5f97bcc2d6))
+* redesigning of home page for documentation site UA-238 #time 7h 40m ([aced5ee](https://github.com/geospoc/unc-sch-documentation/commit/aced5ee7eb6b61d6d41f3c4711efe39278210353))
+
+
+
 # 0.1.0 (2021-06-25)
 
 
