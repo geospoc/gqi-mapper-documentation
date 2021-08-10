@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/geospoc/unc-sch-documentation/compare/v0.2.0...v0.2.1) (2021-08-10)
+
+
+### Bug Fixes
+
+* update correct URL for gh-pages ([489b085](https://github.com/geospoc/unc-sch-documentation/commit/489b085f1fc6be09b7bab6613f533e267e487e01))
+
+
+
 # [0.2.0](https://github.com/geospoc/unc-sch-documentation/compare/v0.1.0...v0.2.0) (2021-08-10)
 
 
