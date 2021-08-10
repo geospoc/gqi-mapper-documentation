@@ -40,8 +40,6 @@ export default withDocus({
       },
     ],
   },
-
-  modules: ['@nuxt/content'],
   // Router settings for deployment
   router: {
     base:
