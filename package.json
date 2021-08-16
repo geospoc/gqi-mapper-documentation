@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "@vue/composition-api": "^1.1.0",
+    "@vue/composition-api": "^1.1.1",
     "docus": "0.9.0",
     "nuxt": "^2.15.7"
   },
