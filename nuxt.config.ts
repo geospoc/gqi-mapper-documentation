@@ -46,7 +46,7 @@ export default withDocus({
   image: {
     domains: ['https://geospoc.github.io'],
     alias: {
-      static: isProd ? '/gqi-mapper-documentation/' : '/',
+      'gqi-mapper-documentation': isProd ? '/gqi-mapper-documentation/' : '/',
     },
   },
   // Router settings for deployment
