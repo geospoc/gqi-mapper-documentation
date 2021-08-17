@@ -1,3 +1,22 @@
+# [0.3.0](https://github.com/geospoc/unc-sch-documentation/compare/v0.2.1...v0.3.0) (2021-08-17)
+
+
+### Bug Fixes
+
+* **deps:** bump @vue/composition-api from 1.1.0 to 1.1.1 ([45887af](https://github.com/geospoc/unc-sch-documentation/commit/45887af9b388e470d7db4f34fce86f02657346bb))
+* **deps:** bump nuxt from 2.15.7 to 2.15.8 ([a9b1efc](https://github.com/geospoc/unc-sch-documentation/commit/a9b1efca1324c87c3ebae55b729a4199a78227a5))
+* enable nuxt image for github.io domain ([bf98c56](https://github.com/geospoc/unc-sch-documentation/commit/bf98c562e3f41f87a021267fc5814108c3e9e014))
+* issue of broken images links UA-238 #time 1h 10m ([d9bbcc1](https://github.com/geospoc/unc-sch-documentation/commit/d9bbcc144aebf86dff1daffe668032d23b6b3114))
+* lockfile issue ([0749332](https://github.com/geospoc/unc-sch-documentation/commit/0749332ead887fb296465403ab70380393e54de4))
+
+
+### Features
+
+* add alias for nuxt image ([8da05e0](https://github.com/geospoc/unc-sch-documentation/commit/8da05e0e8a92e8563b1de25e3a9852191d45a934))
+* use `nuxt-img` to render the image ([d95174e](https://github.com/geospoc/unc-sch-documentation/commit/d95174e596c2e9070140234ba93433144d611561))
+
+
+
 ## [0.2.1](https://github.com/geospoc/unc-sch-documentation/compare/v0.2.0...v0.2.1) (2021-08-10)
 
 
