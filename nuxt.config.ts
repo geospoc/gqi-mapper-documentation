@@ -44,6 +44,7 @@ export default withDocus({
   },
   buildModules: ['@nuxt/image'],
   image: {
+    domains: ['https://geospoc.github.io'],
     alias: {
       static: isProd ? '/gqi-mapper-documentation/' : '/',
     },
