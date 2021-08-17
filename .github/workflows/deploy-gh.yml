@@ -15,7 +15,7 @@ jobs:
           persist-credentials: false
 
       - name: Setup node env 📦
-        uses: actions/setup-node@v2.1.5
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: 16
           registry-url: 'https://registry.npmjs.org'
@@ -26,7 +26,7 @@ jobs:
         run: npm i -g npm@latest
 
       - name: Clean Install dependencies 🛠
-        run: npm i  --no-audit --no-save
+        run: npm ci  --no-audit --prefer-offline
 
       - name: Generate the static site ⚡️
         run: npm run build
