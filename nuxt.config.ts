@@ -41,6 +41,7 @@ export default withDocus({
       },
     ],
   },
+  buildModules: ['@nuxt/image'],
   // Router settings for deployment
   router: {
     base:
