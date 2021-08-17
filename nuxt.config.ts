@@ -1,4 +1,5 @@
 import { withDocus } from 'docus';
+const isProd: boolean = process.env.NODE_ENV === 'production';
 
 export default withDocus({
   rootDir: __dirname,
@@ -42,11 +43,13 @@ export default withDocus({
     ],
   },
   buildModules: ['@nuxt/image'],
+  image: {
+    alias: {
+      static: isProd ? '/gqi-mapper-documentation/' : '/',
+    },
+  },
   // Router settings for deployment
   router: {
-    base:
-      process.env.NODE_ENV === 'production'
-        ? '/gqi-mapper-documentation/'
-        : '/',
+    base: isProd ? '/gqi-mapper-documentation/' : '/',
   },
 });
