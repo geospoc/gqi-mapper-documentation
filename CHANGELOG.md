@@ -1,3 +1,22 @@
+# [0.4.0](https://github.com/geospoc/unc-sch-documentation/compare/v0.3.0...v0.4.0) (2021-09-05)
+
+
+### Bug Fixes
+
+* correct typo for Crowd Source Validation Platform key UA-238 #time 10m ([c9a5139](https://github.com/geospoc/unc-sch-documentation/commit/c9a5139c21076a04ccaa2fcac557910f86660c22))
+
+
+### Features
+
+* add hospital codebase and documentation links UA-238 #time 15m ([97e4c2c](https://github.com/geospoc/unc-sch-documentation/commit/97e4c2cd4ae06f20e34d6045a3aaecd76b9ff070))
+* avail prod ready urls on home page UA-238 #time 10m ([1d61a9c](https://github.com/geospoc/unc-sch-documentation/commit/1d61a9cffc5777ce831d83b3fe430eff78f0d548))
+* correct csvp links for schools and hospitals UA-238 #time 10m ([3a6b9be](https://github.com/geospoc/unc-sch-documentation/commit/3a6b9be5e4abe165f7de7a0c6d7f6e5dbb2e36fb))
+* **ts:** add tsconfig ([75a45a7](https://github.com/geospoc/unc-sch-documentation/commit/75a45a749799c075fee0596c0f04c3eb79ee7bd7))
+* update codebase and documentation link for hospitals UA-238 #time 10m ([bb5f6e7](https://github.com/geospoc/unc-sch-documentation/commit/bb5f6e7334dca9c6f340254370825f43bfe02969))
+* update home page bullet links UA-238 #time 15m ([b62f6cb](https://github.com/geospoc/unc-sch-documentation/commit/b62f6cb57cfca8d73c23771f5ce938396def3227))
+
+
+
 # [0.3.0](https://github.com/geospoc/unc-sch-documentation/compare/v0.2.1...v0.3.0) (2021-08-17)
 
 
