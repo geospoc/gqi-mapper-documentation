@@ -26,7 +26,7 @@ jobs:
         run: npm i -g npm@latest
 
       - name: Clean Install dependencies 🛠
-        run: npm ci  --no-audit --prefer-offline
+        run: npm ci --no-audit --prefer-offline
 
       - name: Generate the static site ⚡️
         run: npm run build
