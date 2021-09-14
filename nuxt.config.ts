@@ -1,4 +1,4 @@
-import { withDocus } from '@docus/app';
+import { withDocus } from 'docus';
 const isProd: boolean = process.env.NODE_ENV === 'production';
 
 export default withDocus({
@@ -7,7 +7,6 @@ export default withDocus({
    */
   rootDir: __dirname,
   target: 'static',
-  ssr: false,
   head: {
     meta: [
       { charset: 'utf-8' },
@@ -49,14 +48,7 @@ export default withDocus({
   /**
    * Build Modules
    */
-  buildModules: [
-    '@nuxt/typescript-build',
-    '@docus/github',
-    '@docus/twitter',
-    '@docus/social-image',
-    '@nuxt/image',
-    'nuxt-compress',
-  ],
+  buildModules: ['@nuxt/image'],
   image: {
     domains: ['https://geospoc.github.io'],
     alias: {
