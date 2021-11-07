@@ -24,7 +24,7 @@
     "nuxt": "^2.15.8"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.2.1",
+    "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
     "@nuxt/image": "^0.6.0",
     "@nuxtjs/composition-api": "^0.29.3",
