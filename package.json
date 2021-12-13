@@ -42,7 +42,7 @@
     "husky": "^7.0.4",
     "nuxt-compress": "^5.0.0",
     "postcss": "^8.4.4",
-    "prettier": "^2.5.0",
+    "prettier": "^2.5.1",
     "shipjs": "^0.24.1"
   },
   "author": {
