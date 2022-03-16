@@ -41,7 +41,7 @@
     "eslint-plugin-vue": "^8.4.0",
     "husky": "^7.0.4",
     "nuxt-compress": "^5.0.0",
-    "postcss": "^8.4.5",
+    "postcss": "^8.4.11",
     "prettier": "^2.5.1",
     "shipjs": "^0.24.2"
   },
